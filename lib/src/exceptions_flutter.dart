@@ -5,11 +5,7 @@ import 'package:equatable/equatable.dart';
 /// {@endtemplate}
 class ExceptionsFlutter extends Equatable implements Exception {
   /// {@macro exceptions_flutter}
-  const ExceptionsFlutter({
-    this.code,
-    this.message,
-    this.stackTrace,
-  });
+  const ExceptionsFlutter({this.code, this.message, this.stackTrace});
 
   /// The optional code to accommodate the message.
   ///
